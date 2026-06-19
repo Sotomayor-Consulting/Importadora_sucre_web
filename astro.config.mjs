@@ -7,7 +7,7 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://zenix.farros.co',
+  site: 'https://zenix.farrosfr.com',
   base: '/',
   trailingSlash: 'always',
 

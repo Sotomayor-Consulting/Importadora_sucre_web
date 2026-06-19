@@ -2,7 +2,7 @@
 
 Zenix is a polished Astro SaaS theme by [Farros FR](https://farrosfr.com) with responsive landing sections, pricing, blog, changelog, dark mode, search, and MDX content support.
 
-[Live demo](https://zenix.farros.co/) · [Repository](https://github.com/farrosfr/zenix)
+[Live demo](https://zenix.farrosfr.com/) · [Repository](https://github.com/farrosfr/zenix)
 
 ![alt text](readme-hero.png)
 ![alt text](readme-speed.png)
@@ -55,7 +55,7 @@ Most site-level settings live in `src/config.ts`:
 ```ts
 export const SITE_TITLE = 'Zenix';
 export const SITE_DESCRIPTION = 'High-converting, performance-focused Astro theme for Micro-SaaS products.';
-export const SITE_URL = 'https://zenix.farros.co';
+export const SITE_URL = 'https://zenix.farrosfr.com';
 
 export const SOCIAL_LINKS = {
   twitter: 'https://twitter.com/farrosfr_',

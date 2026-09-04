@@ -30,7 +30,7 @@ export const FOOTER_LINKS = [
   {
     title: 'Productos',
     links: [
-      { label: 'boost oxygen', href: 'https://boostoxygenecuador.com/' },
+      { label: 'BOOST OXYGEN ECUADOR', href: 'https://boostoxygenecuador.com/' },
       // { label: 'Pricing', href: '/pricing/' },
       // { label: 'Changelog', href: '/changelog/' },
       // { label: 'Integrations', href: '#' },

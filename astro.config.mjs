@@ -1,28 +1,35 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
-import tailwindcss from '@tailwindcss/vite';
-import { passthroughImageService } from 'astro/config';
+import { defineConfig } from "astro/config";
+import tailwindcss from "@tailwindcss/vite";
+import { passthroughImageService } from "astro/config";
 
-import mdx from '@astrojs/mdx';
+import mdx from "@astrojs/mdx";
+
+import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://zenix.farrosfr.com',
-  base: '/',
-  trailingSlash: 'always',
+  site: "https://zenix.farrosfr.com",
+  base: "/",
+  trailingSlash: "always",
 
   build: {
-    inlineStylesheets: 'always'
+    inlineStylesheets: "always",
   },
 
   image: {
     service: passthroughImageService(),
-    domains: ['i.pravatar.cc']
+    domains: ["i.pravatar.cc"],
   },
 
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
   },
 
-  integrations: [mdx()]
+  integrations: [
+    mdx(),
+    icon({
+      iconDir: "src/icons",
+    }),
+  ],
 });

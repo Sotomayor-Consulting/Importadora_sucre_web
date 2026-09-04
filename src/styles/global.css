@@ -81,11 +81,11 @@
 /* Utility layer for custom complex visual effects */
 @layer utilities {
   .glass-panel {
-    @apply bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl border border-slate-200/50 dark:border-slate-800/50 shadow-xl;
+    @apply bg-white/70 dark:bg-[#09090b]/70 backdrop-blur-xl border border-slate-200/50 dark:border-slate-800/50 shadow-xl;
   }
   
   .text-gradient {
-    @apply text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-accent-500 dark:from-primary-400 dark:to-accent-300;
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-[#0b1d3a] to-[#d32f2f] dark:from-[#0b1d3a] dark:to-[#d32f2f];
   }
 
   .hover-glow {
@@ -93,7 +93,7 @@
   }
   
   .hover-glow:hover {
-    box-shadow: 0 0 25px -5px theme('colors.primary.500 / 30%');
+    box-shadow: 0 0 25px -5px #d32f2f;
     transform: translateY(-2px);
   }
 }

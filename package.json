@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.60.0",
-    "@tailwindcss/typography": "^0.5.19"
+    "@tailwindcss/typography": "^0.5.19",
+    "wrangler": "^4.129.0"
   }
 }
